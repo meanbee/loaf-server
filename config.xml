@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+    <dac>
+        <repository>git@codebasehq.com:meanbee/general/dac.git</repository>
+        <description>Duplicate and Commit: Simple template cloning</description>
+    </dac>
+    <gc2qif>
+        <repository>git://github.com/punkstar/gc2qif.git</repository>
+        <description>Google Checkout to QIF Convertor: Allows importing to a Freeagent Bank Account from a full Google Checkout CSV export</description>
+    </gc2qif>
+</packages>
