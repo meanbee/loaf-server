@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <packages>
+    <loaf>
+        <repository>git://github.com/meanbee/loaf.git</repository>
+        <description>The program you are using right now! Simple package management.</description>
+    </loaf>
     <dac>
         <repository>git@codebasehq.com:meanbee/general/dac.git</repository>
         <description>Duplicate and Commit: Simple template cloning</description>
@@ -8,4 +12,8 @@
         <repository>git://github.com/punkstar/gc2qif.git</repository>
         <description>Google Checkout to QIF Convertor: Allows importing to a Freeagent Bank Account from a full Google Checkout CSV export</description>
     </gc2qif>
+    <goto>
+        <repository>git://github.com/Shawesome/magento-command-line-navigation.git</repository>
+        <description>A command line utility to aid faster navigation around the a Magento installation.</description>
+    </goto>
 </packages>
