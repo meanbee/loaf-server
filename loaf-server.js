@@ -14,6 +14,7 @@ fs.readFile(__dirname + '/config.xml', function(err, data) {
     parser.parseString(data);
 });
 
+var port = process.env.PORT || 1337;
 http.createServer(function (req, res) {
     // decide action based on url
     var action = decideAction(req.url);
@@ -23,7 +24,7 @@ http.createServer(function (req, res) {
     // respond
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(response));
-}).listen(1337);
+}).listen(port);
 
 function decideAction(url) {
     if (url == '/') {
